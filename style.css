@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(254, 254, 254);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(229, 243, 238);
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+.profile{
+    width: 110px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5{
+    color:teal;
+    font-weight: bold;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+    
+}
+.left{
+    height: 70%;
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+.right{
+    height: 70%;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.common-rule{
+   border: 1px solid black;
+   width: 100%;
+   border-bottom-width: none;
+   opacity: 0.5;
+   margin: 2px auto;
+}
+.right ul{
+    width: 100%;
+    padding: 20px 20px;
+}
+.edu-left{
+     float: left;
+     width: 25%;
+     padding: 20px;
+}
+.edu-right{
+    float: right;
+    width: 25%;
+    padding: 20px;
+}
+.right-1 ul{
+    height: 70%;
+    width: 40%;
+    float: left;
+    padding: 25px;
+}
+
+/*
+ footer start
+*/
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.bottom a{
+    color: white;
+    margin: 20px ;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.bottom p{
+    margin-top: 20px;
+    color: wheat;
+}
+
+/*
+ footer end
+*/
